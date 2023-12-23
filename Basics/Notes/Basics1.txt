@@ -1,0 +1,52 @@
+React Js is Js Library for Creating UI Design.
+It is used for creating Single Page Application(SPA).
+
+It is Component Based Architecture. ( Reusable Piece of Code ) - Custom HTML element
+
+Q.Why React is needed in place of Js?
+Js is used for Imperative Approach ( How to do ) 
+and React is used for Declarative Approach ( What to do )
+
+It changes the Content Dynamically without reloading the page.
+
+React Alternative - Angular, Vue
+
+-- React Components -- 
+It is reusuable piece of code which can be used in multiple places.
+
+Q.Why React is Component Based Architecture?
+1- increase the reusability of code
+2- Easy to maintain
+3- Don't Repeat Yourself (DRY)
+4- Increase readability
+5- Seperation of Concerns ( SoC )
+
+jsx - java script xml
+package.json - It contains all the dependcies & Details of the Project.
+
+-- Working --
+1- when page is loaded index.js is execute first ( Entry Point ).
+2- In index.html file we have div with id root.
+3- In index.js file we have ReactDOM.render() method which is used to render the component in the root div.
+4- In index.js we use App.js component which is used to render the component in the root div.
+
+index.js -> index.html -> root div -> react root -> App.js -> Render HTML
+
+jsx is HTML code written in js file.
+className is used bcoz class is already reserved keyword in js.
+code written in jsx file is not valid js code.
+js code is written in jsx file is converted into js code by babel.
+
+npm start - Changes the user-defined code into browser understandable code.
+
+naming of component should be in PascalCase ( First Letter of Every Word is Capital ).
+
+There should be one root component in the application.
+and every component should be having closing tag.
+
+-- Props -- 
+Props are used to pass the data from one component to another component.
+props.children - It is used to access the data between the opening and closing tag of the component.
+Example :         <Item name={response[0].itemName}>hello</Item>
+for above example {props.children} will be hello.
+
