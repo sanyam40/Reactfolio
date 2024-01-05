@@ -1,13 +1,19 @@
-# ReactFolio
+# Reactfolio
 
-## Overview
+This repository covers a wide range of React.js concepts from the basics to advanced topics such as props, useState, useEffect, React forms, React Router DOM, custom hooks, Context API, and Redux.
 
-This repository covers a wide range of React.js concepts from the basics to advanced topics and is divided into three folders: Basics, Intermediate, and Advanced. Projects that offer practical experience and a deeper comprehension of React.js can be found in each folder.
+## Project Structure
 
-## Folder Structure
+The repository is organized into folders, each corresponding to a specific React.js concept. The primary folders are as follows:
 
-The Repo is organized into the following folders:
+- `1-useState`
+- `2-useEffect`
+- `3-React Forms`
+- `4-react-router-dom`
+- `5-Custom Hooks`
+- `6-Context API`
+- `7-uselocation`
+- `8-redux`
 
-- `basics/`: Covers fundamental concepts like Components, Props, useState,useEffect, and a Mini Project.
-- `intermediate/`: Focuses on Handling Forms in React, Understanding React Router V6 with a Project, and a continued React Router V6 Project.
-- `advance/`: Explores Additional React Hooks, Custom Hook, Context API, Reducers, State Management, and Redux Toolkit.
+Each folder contains a standalone mini-project related to the respective React.js concept.
+
